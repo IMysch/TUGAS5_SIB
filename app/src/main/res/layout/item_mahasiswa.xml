@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="15dp">
+
+    <TextView
+        android:id="@+id/tv_NPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/npm"/>
+
+    <TextView
+        android:id="@+id/tv_Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"/>
+
+    <TextView
+        android:id="@+id/tv_Kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kelas"/>
+
+      </LinearLayout>
+      <androidx.cardview.widget.CardView
+    </LinearLayout>
+
